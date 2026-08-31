@@ -1,6 +1,6 @@
 # MLL-1
 
-for standard.py SVM Classification Results
+1 ] for standard.py SVM Classification Results
 --------------------------
 Accuracy: 91.11111111111111 %
 
@@ -21,3 +21,6 @@ Classification Report:
 weighted avg       0.92      0.91      0.91        45
 
 ![Uploading image.png…]()
+
+
+screenshot
