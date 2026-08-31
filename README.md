@@ -24,3 +24,61 @@ weighted avg       0.92      0.91      0.91        45
 
 
 screenshot
+
+
+2 ] for KNN.py 
+
+Correct Predictions:
+--------------------
+Actual: versicolor Predicted: versicolor -> Correct
+Actual: setosa Predicted: setosa -> Correct
+Actual: virginica Predicted: virginica -> Correct
+Actual: versicolor Predicted: versicolor -> Correct
+Actual: versicolor Predicted: versicolor -> Correct
+Actual: setosa Predicted: setosa -> Correct
+Actual: versicolor Predicted: versicolor -> Correct
+Actual: virginica Predicted: virginica -> Correct
+Actual: versicolor Predicted: versicolor -> Correct
+Actual: versicolor Predicted: versicolor -> Correct
+Actual: virginica Predicted: virginica -> Correct
+Actual: setosa Predicted: setosa -> Correct
+Actual: setosa Predicted: setosa -> Correct
+Actual: setosa Predicted: setosa -> Correct
+Actual: setosa Predicted: setosa -> Correct
+Actual: versicolor Predicted: versicolor -> Correct
+Actual: virginica Predicted: virginica -> Correct
+Actual: versicolor Predicted: versicolor -> Correct
+Actual: versicolor Predicted: versicolor -> Correct
+Actual: virginica Predicted: virginica -> Correct
+Actual: setosa Predicted: setosa -> Correct
+Actual: virginica Predicted: virginica -> Correct
+Actual: setosa Predicted: setosa -> Correct
+Actual: virginica Predicted: virginica -> Correct
+Actual: virginica Predicted: virginica -> Correct
+Actual: virginica Predicted: virginica -> Correct
+Actual: virginica Predicted: virginica -> Correct
+Actual: virginica Predicted: virginica -> Correct
+Actual: setosa Predicted: setosa -> Correct
+Actual: setosa Predicted: setosa -> Correct
+Actual: setosa Predicted: setosa -> Correct
+Actual: setosa Predicted: setosa -> Correct
+Actual: versicolor Predicted: versicolor -> Correct
+Actual: setosa Predicted: setosa -> Correct
+Actual: setosa Predicted: setosa -> Correct
+Actual: virginica Predicted: virginica -> Correct
+Actual: versicolor Predicted: versicolor -> Correct
+Actual: setosa Predicted: setosa -> Correct
+Actual: setosa Predicted: setosa -> Correct
+Actual: setosa Predicted: setosa -> Correct
+Actual: virginica Predicted: virginica -> Correct
+Actual: versicolor Predicted: versicolor -> Correct
+Actual: versicolor Predicted: versicolor -> Correct
+Actual: setosa Predicted: setosa -> Correct
+Actual: setosa Predicted: setosa -> Correct
+
+Wrong Predictions:
+-----------------
+
+Total Correct Predictions: 45
+Total Wrong Predictions: 0
+Total Test Samples: 45
