@@ -23,7 +23,7 @@ weighted avg       0.92      0.91      0.91        45
 ![Uploading image.png…]()
 
 
-screenshot
+screenshot on 31/08/2026
 
 
 2 ] for KNN.py 
