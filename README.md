@@ -82,3 +82,22 @@ Wrong Predictions:
 Total Correct Predictions: 45
 Total Wrong Predictions: 0
 Total Test Samples: 45
+
+
+3 ] LinearRegression.py solution
+Dataset Shape: (442, 10)
+Training Samples: 309
+Testing Samples: 133
+
+Model trained successfully.
+
+Intercept: 151.04202449316014
+Coefficient: 988.419312489359
+
+Model Performance
+-----------------
+Mean Squared Error (MSE): 3884.936720961032
+Mean Absolute Error (MAE): 50.59307504375872
+R² Score: 0.2803417492440603
+
+and the screenshot on 01/09/2026
