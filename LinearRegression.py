@@ -10,7 +10,7 @@ print("Dataset Shape:", X.shape)
 X = X[:, [2]]
 
 X_train, X_test, y_train, y_test = train_test_split(
-    X,rthyj
+    X,
     y,
     test_size=0.30,
     random_state=42
