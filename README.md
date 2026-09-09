@@ -184,3 +184,36 @@ First Five Rows of Scaled Training Data
 
 Data Preprocessing Completed Successfully.
 Selection deleted
+
+
+//decision tree result below
+
+PLAY TENNIS DATASET
+     Outlook Temperature Humidity    Wind PlayTennis
+0      Sunny         Hot     High    Weak         No
+1      Sunny         Hot     High  Strong         No
+2   Overcast         Hot     High    Weak        Yes
+3       Rain        Mild     High    Weak        Yes
+4       Rain        Cool   Normal    Weak        Yes
+5       Rain        Cool   Normal  Strong         No
+6   Overcast        Cool   Normal  Strong        Yes
+7      Sunny        Mild     High    Weak         No
+8      Sunny        Cool   Normal    Weak        Yes
+9       Rain        Mild   Normal    Weak        Yes
+10     Sunny        Mild   Normal  Strong        Yes
+11  Overcast        Mild     High  Strong        Yes
+12  Overcast         Hot   Normal    Weak        Yes
+13      Rain        Mild     High  Strong         No
+
+Decision Tree Model Trained Successfully.
+
+New Sample:
+  Outlook Temperature Humidity    Wind
+0   Sunny        Cool     High  Strong
+Prediction: NO - Do Not Play Tennis
+
+Prediction Probability:
+No  : 1.0
+Yes : 0.0
+
+and also the screenshot 09/09/2026.lxl
