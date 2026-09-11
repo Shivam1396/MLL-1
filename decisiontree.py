@@ -6,7 +6,7 @@ data = {
     'Outlook': [
         'Sunny', 'Sunny', 'Overcast', 'Rain', 'Rain',
         'Rain', 'Overcast', 'Sunny', 'Sunny', 'Rain',
-        'Sunny', 'Overcast', 'Overcast', 'Rain'
+        'Sunny', 'Overcast', 'Overcast', 'Rain'ggggggggg
     ],
     'Temperature': [
         'Hot', 'Hot', 'Hot', 'Mild', 'Cool',
