@@ -12,7 +12,6 @@ iris = load_iris()
 
 X = iris.data
 y = iris.target
-qeweqwewq
 # Use only Petal Length and Petal Width
 X_visual = X[:, [2, 3]]
 
