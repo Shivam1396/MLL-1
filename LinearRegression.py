@@ -7,7 +7,7 @@ diabetes = load_diabetes()
 X = diabetes.data
 y = diabetes.target
 print("Dataset Shape:", X.shape)
-X = X[:, [2]]
+X = X[:, [2]]ffffff
 
 X_train, X_test, y_train, y_test = train_test_split(
     X,
