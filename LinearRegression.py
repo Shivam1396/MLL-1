@@ -5,7 +5,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 diabetes = load_diabetes()
 X = diabetes.data
-y = diabetes.target
+y = diabetes.targetfrfqertqttrtr
 print("Dataset Shape:", X.shape)
 X = X[:, [2]]
 
