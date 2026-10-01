@@ -212,6 +212,56 @@ New Sample:
 0   Sunny        Cool     High  Strong
 Prediction: NO - Do Not Play Tennis
 
+
+
+//Decision_Tree_exp_1.py  output
+Accuracy : 0.875
+Precision: 0.947
+Recall   : 0.818
+F1-score : 0.878
+Confusion Matrix:
+ [[17  1]
+ [ 4 18]]
+|--- internal_marks <= 15.50
+|   |--- study_hours <= 6.85
+|   |   |--- assignment_marks <= 11.50
+|   |   |   |--- class: 0
+|   |   |--- assignment_marks >  11.50
+|   |   |   |--- study_hours <= 4.70
+|   |   |   |   |--- class: 0
+|   |   |   |--- study_hours >  4.70
+|   |   |   |   |--- class: 1
+|   |--- study_hours >  6.85
+|   |   |--- assignment_marks <= 9.50
+|   |   |   |--- attendance <= 81.50
+|   |   |   |   |--- class: 0
+|   |   |   |--- attendance >  81.50
+|   |   |   |   |--- class: 1
+|   |   |--- assignment_marks >  9.50
+|   |   |   |--- internal_marks <= 2.00
+|   |   |   |   |--- class: 0
+|   |   |   |--- internal_marks >  2.00
+|   |   |   |   |--- class: 1
+|--- internal_marks >  15.50
+|   |--- assignment_marks <= 3.50
+|   |   |--- study_hours <= 2.75
+|   |   |   |--- class: 0
+|   |   |--- study_hours >  2.75
+|   |   |   |--- attendance <= 56.00
+|   |   |   |   |--- class: 0
+|   |   |   |--- attendance >  56.00
+|   |   |   |   |--- class: 1
+|   |--- assignment_marks >  3.50
+|   |   |--- study_hours <= 3.05
+|   |   |   |--- assignment_marks <= 10.50
+|   |   |   |   |--- class: 0
+|   |   |   |--- assignment_marks >  10.50
+|   |   |   |   |--- class: 1
+|   |   |--- study_hours >  3.05
+|   |   |   |--- class: 1
+
+New student prediction: PASS
+
 Prediction Probability:
 No  : 1.0
 Yes : 0.0
